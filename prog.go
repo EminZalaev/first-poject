@@ -57,42 +57,4 @@ func main(){
 //  bob := User{name: "bob", age:, money: -59, avg_grades: 1.1, sadness: 0.9}
   handleRequest()
 }
-for fmt.Scan(&a); i<10; fmt.Scan(&a){
-    workArray[i]=a
-    i++
-}
-    for j=0;j<6;j++{
-    for fmt.Scan(&b);j<6; fmt.Scan(&a){
- arr[j] = a
-    j++
-      }
-}
-for j=0;i<6;i++{
-    fmt.Printf("%d ",arr[j])
-}
-    /*
-        //for j=0;j<6;j++{
-      //  fmt.Println(arr[j])
- //   }
-*/
-    for j=0;j<6;j++{
-        if j==0{
-        s= workArray[arr[j]]
-        t= workArray[arr[j+1]]
-        workArray[arr[i]] = t
-        workArray[arr[i+1]] = s
-    }
 
-    if j==2{
-        s= workArray[arr[j]]
-        t= workArray[arr[j+1]]
-        workArray[arr[j]] = t
-        workArray[arr[j+1]] = s
-    }
-    if j==4{
-        s= workArray[arr[j]]
-        t= workArray[arr[j+1]]
-        workArray[arr[j]] = t
-        workArray[arr[j+1]] = s
-    }
-}
